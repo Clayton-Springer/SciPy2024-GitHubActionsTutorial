@@ -5,11 +5,11 @@ on:
   workflow_dispatch:
   push: 
     branches:
-     - main
-     - caching
+ #    - main
+ #    - caching
   
   schedule:
-    - cron: '45 * * * *'
+    - cron: '53 * * * *'
     
 jobs:
   process:
